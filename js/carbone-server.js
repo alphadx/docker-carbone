@@ -16,7 +16,7 @@ app.get('/', function(request, response) {
   var html = `
     <html>
         <body>
-            <form method="post" action="http://localhost:3000">
+            <form method="post" action="">
                 Template: <input type="text" name="template" value="./node_modules/carbone/examples/simple.odt"/><br>
                 JSON: <input type="textarea" name="json" rows="5" cols="50" wrap="soft" value='{"firstname":"John","lastname":"Doe"}'/><br>
                 <input type="submit" value="Submit" />
